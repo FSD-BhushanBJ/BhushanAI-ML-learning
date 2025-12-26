@@ -1,0 +1,8 @@
+score = 0
+
+height = 1.8
+
+is_winning = True
+
+#using f string is for string.3258
+print(f"Your score is = {score}, Your height is {height},You are winnning is {is_winning}")
