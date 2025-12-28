@@ -22,10 +22,11 @@ elif size == 'l':
             bill = price + 2
         else:
             bill = price + 3
-    if extracheese == "y":
+        if extracheese == "y":
             bill = price + 1
 
 total = bill
 
 
 print(f"Your final bill is:{total}")
+
