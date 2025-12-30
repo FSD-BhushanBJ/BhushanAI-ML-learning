@@ -26,9 +26,7 @@ road = input("You're at a cross road. Where do you want to go?\n Type 'left' or 
 if road == "left":
     
     option = input("You've come to a lake. There is island in the middle of the lake.\n Type 'wait' for the boat. Type 'swim' to swim across\n")
-    if option == "swim":
-        print("Attacked by trout. Game Over")
-    elif option == "wait":
+    if option == "wait":
         door = input("Which door? Red, Yellow or Blue :")
         if door == "red":
             print("Burned by fire. Game Over")
@@ -38,5 +36,7 @@ if road == "left":
             print("Eaten by beasts. Game Over") 
         else:
             print("Game Over")
+    else:
+        print("Attacked by trout. Game Over")
 else:
     print("Fall in to a hole. Game Over.")
